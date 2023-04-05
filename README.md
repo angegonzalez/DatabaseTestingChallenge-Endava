@@ -15,7 +15,7 @@ This challenge is about the following points:
     (use foreign key), to show the studies from an employee. Take a screenshot from the
    new Entity-Relationship Diagram.
 
-    [](/resources/Diagrama%20ER.png)
+   <img alt="ER Diagram" height="500" src="./resources/Diagrama%20ER.png" width="500"/>
 
 2. Use the Join Clause to get the data from the tables `Institution` and `Employee`
 
