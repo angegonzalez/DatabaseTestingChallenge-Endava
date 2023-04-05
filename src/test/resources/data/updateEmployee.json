@@ -1,0 +1,23 @@
+{
+  "id": 95,
+  "firstName": "Nataliaa",
+  "lastName": "González",
+  "email": "natis@gmail.com",
+  "phone": "78962426",
+  "address": "42 George av.",
+  "salary": "4100",
+  "birth": "1979-02-06",
+  "company": {
+    "id": "4",
+    "name": "Exito",
+    "phone": "7822365",
+    "email": "extio@gmail.com",
+    "address":"36 Jackson rd."
+  },
+  "institution": {
+    "id": "4",
+    "name": "Universidad Javeriana",
+    "address": "Calle 40 # 90-23",
+    "phone": "3002912"
+  }
+}

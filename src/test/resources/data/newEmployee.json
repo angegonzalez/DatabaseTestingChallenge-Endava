@@ -1,0 +1,23 @@
+{
+    "id": 100,
+    "firstName": "Angel",
+    "lastName": "González",
+    "email": "angel.test@test.com",
+    "phone": "3001012012",
+    "address": "Avenida Siempre Viva 123",
+    "salary": "100000",
+    "birth": "2000-04-10",
+    "company": {
+      "id": "100",
+      "name": "Metro",
+      "phone": "3001918212",
+      "email": "metro@metro.com",
+      "address":"Av 90 78 91"
+    },
+    "institution": {
+      "id": "100",
+      "name": "Universidad del Bosque",
+      "address": "Calle 100 72 28b",
+      "phone": "3009271212"
+    }
+}
