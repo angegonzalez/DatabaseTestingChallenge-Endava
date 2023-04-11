@@ -46,3 +46,15 @@ SELECT *
 FROM Institution i
 INNER JOIN Employee e 
 ON i.idInstitution  = e.idInstitution 
+
+SELECT *
+FROM Children c
+WHERE c.idEmployee IN (
+	SELECT e.idEmployee 
+	FROM Employee e
+	WHERE e.idCompany IN (
+		SELECT c2.idCompany 
+		FROM Company c2
+		WHERE c2.idCompany = 5
+	)
+)
