@@ -3,7 +3,6 @@ package model.dao;
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.EntityTransaction;
 import jakarta.persistence.PersistenceContext;
-import model.entity.Company;
 import model.entity.Institution;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;

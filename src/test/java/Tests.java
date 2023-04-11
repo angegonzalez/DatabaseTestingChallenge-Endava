@@ -1,20 +1,19 @@
-
 import model.entity.Employee;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 import service.CompanyService;
 import service.EmployeeService;
 import service.InstitutionService;
 import utils.JSONHelper;
-import static org.assertj.core.api.Assertions.*;
 
 import java.io.File;
 import java.io.IOException;
 import java.util.List;
 import java.util.Objects;
+
+import static org.assertj.core.api.Assertions.assertThat;
 
 public class Tests {
     private CompanyService companyService;
