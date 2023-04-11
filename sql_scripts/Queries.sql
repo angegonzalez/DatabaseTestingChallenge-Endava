@@ -44,4 +44,5 @@ USE personas;
 
 SELECT *
 FROM Institution i
-INNER JOIN Em
+INNER JOIN Employee e 
+ON i.idInstitution  = e.idInstitution 
